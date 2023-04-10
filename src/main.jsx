@@ -11,13 +11,14 @@ import Demand from './components/Demand/Demand';
 import Statistics from './components/Statistics/Statistics';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blog from './components/Blog/Blog';
+import ErrorPage from './components/Error/ErrorPage';
 
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Home></Home>,
-    
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
