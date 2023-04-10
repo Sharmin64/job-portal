@@ -6,7 +6,9 @@ const Home = () => {
   return (
     <div>
       <Header></Header>
+      <div className='mt-6'>
       <Outlet></Outlet>
+   </div>
     </div>
   );
 };
