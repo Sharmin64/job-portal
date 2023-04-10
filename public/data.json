@@ -7,19 +7,19 @@
   },
   {
       "id": 2, 
-      "title": "Creative Design",
+      "title": "Awsome Design",
       "quantity": "100+",
       "image": "https://i.ibb.co/r3zzQdp/light-Icon.png"
   },
   {
       "id": 3, 
-      "title": "Marketing & Sales",
+      "title": "Marketing & Business",
       "quantity": "150",
       "image": "https://i.ibb.co/cQgV5cn/social-Icon.png"
   },
   {
       "id": 4, 
-      "title": "Engineering Job",
+      "title": "Engineering demand",
       "quantity": "224",
       "image": "https://i.ibb.co/5RYfN57/chipIcon.png"
   }
