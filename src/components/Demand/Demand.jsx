@@ -22,7 +22,7 @@ console.log(allJob);
         <div className='flex flex-grid flex-col-reverse lg:flex-row grid-cols-2 mx-auto items-center justify-around'>
       <div className='my-3'>
         <h2 className='text-5xl font-bold mb-4 font-serif'>One Step <br />Ahead to Your <br />  <span className='text-[#6897bb]'>Favourite Job</span></h2>
-        <p className='pb-4'>Explore thousands of job opportunities <br/> with all the information you need. Its your future. <br/> Come find it. Manage all your job application  <br/>from start to finish.</p>
+        <p className='pb-4'>Explore thousands of job opportunities <br/> with all the information you need. Its your future. <br/> Come find it. Manage all your sue list.  <br/>from start to finish.</p>
         <Link to='/'>
         <button className='btn px-6 py-4 bg-[#66cccc] rounded btn-outlined'>Get Started</button>
         </Link>
@@ -46,7 +46,7 @@ console.log(allJob);
           )
 }
       </div>
-      <div className='flex flex-col mx-auto justify-around items-center lg:flex-col'>
+      <div className='flex flex-col mx-auto justify-around items-center lg:grid-col'>
         <h4>Feature </h4>
         {
           allJob.map(appealJob => <Feature

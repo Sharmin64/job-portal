@@ -12,7 +12,7 @@
       "job-title": "Product Designer",
       "phone": " 01750-00 00 00",
       "email": "info@gmail.com",
-      "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
+      "location": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
       "schedule": "Full Time",
       "distance":"Onsite"
   },
@@ -29,7 +29,7 @@
       "job-title": "Software Developer",
       "phone": "0123-4567890",
       "email": "hr@microsoft.com",
-      "address": "Redmond, Washington, USA",
+      "location": "Redmond, Washington, USA",
       "schedule": "Full Time",
       "distance":"Remote"
   },
@@ -46,7 +46,7 @@
       "job-title": "Digital Marketing Manager",
       "phone": "555-1234",
       "email": "careers@amazon.com",
-      "address": "Seattle, Washington, USA",
+      "location": "Seattle, Washington, USA",
       "schedule": "Part Time",
       "distance":"Remote"
   },
@@ -63,7 +63,7 @@
       "job-title": "Customer Experience Manager",
       "phone": "+1-855-424-7262",
       "email": "jobs@airbnb.com",
-      "address": "888 Brannan St, San Francisco, CA 94103, USA",
+      "location": "888 Brannan St, San Francisco, CA 94103, USA",
       "schedule": "Part Time",
       "distance":"Remote"
   },
@@ -80,7 +80,7 @@
       "job-title": "Content Acquisition Manager",
       "phone": "+1-408-540-3700",
       "email": "jobs@netflix.com",
-      "address": "100 Winchester Circle, Los Gatos, CA 95032, USA",
+      "location": "100 Winchester Circle, Los Gatos, CA 95032, USA",
       "schedule": "Full Time",
       "distance":"Remote"
   },
@@ -97,7 +97,7 @@
       "job-title": "Autopilot Software Engineer",
       "phone": "+1-650-681-5100",
       "email": "jobs@tesla.com",
-      "address": "3500 Deer Creek Road, Palo Alto, CA 94304, USA",
+      "location": "3500 Deer Creek Road, Palo Alto, CA 94304, USA",
       "schedule": "Full Time",
       "distance":"Remote"
   }
