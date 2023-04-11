@@ -1,7 +1,7 @@
 [
   {
       "id": 1, 
-      "title": "Technical Database Engineer",
+      "title": "Technical Engineer",
       "company": "Google LLC",
       "image": "https://i.ibb.co/3CNFNwt/google-1-1-1.png",
       "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
@@ -16,7 +16,7 @@
   },
   {
       "id": 2,
-      "title": "Software Developer",
+      "title": "Software Engineer",
       "company": "Microsoft Corporation",
       "image": "image.png",
       "description": "A software developer is responsible for designing, developing and maintaining software applications. They use programming languages to write code, test and debug software, and collaborate with other team members to ensure the software meets business and technical requirements.",

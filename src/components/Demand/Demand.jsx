@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+//import React, { useState } from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
 import logo from './hireman.jpg'
 import Job from '../Job/Job';
+//import Feature from '../Job/Feature';
+//import Feature from './../Job/Feature';
 
 const Demand = () => {
   const jobData = useLoaderData()
@@ -36,6 +38,9 @@ const Demand = () => {
             
           )
 }
+      </div>
+      <div>
+       <h4>Feature</h4>
       </div>
     </>
   );
