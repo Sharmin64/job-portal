@@ -1,18 +1,16 @@
-//import React, { useEffect, useState } from 'react';
+import React from 'react';
 
-//const Feature = () => {
-//  const [featureJob, setFeatureJob] = useState([])
-//  useEffect(() => {
-//    fetch('/feature.json')
-//      .then(res => res.json())
-//    .then(data => setFeatureJob(data))
-//  }, [])
-//  console.log(featureJob);
-//  return (
-//    <div>
-//      <p>this is featur e</p>
-//    </div>
-//  );
-//};
+const Feature = ({ appealJob }) => {
+  const {company,address, salary,title,image}=appealJob
+  return (
+    <div className='card'>
+      <img src={image} alt="" />
+      <h3>{title}</h3>
+      <h2>{company}</h2>
+      <p>{address}</p>
+      <p>{salary}</p>
+    </div>
+  );
+};
 
-//export default Feature;
+export default Feature;

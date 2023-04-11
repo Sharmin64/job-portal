@@ -27,6 +27,7 @@ const Statistics = () => {
   ];
   return (
     <div className='justify-center items-center mx-auto'>
+      <h2 className='text-3xl text-center mb-24 font-bold'>Chart of Assignment</h2>
       <ComposedChart
         width={500}
         height={400}

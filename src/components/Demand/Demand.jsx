@@ -3,12 +3,20 @@ import { Link, useLoaderData } from 'react-router-dom';
 import logo from './hireman.jpg'
 import Job from '../Job/Job';
 //import Feature from '../Job/Feature';
-//import Feature from './../Job/Feature';
+import Feature from './../Job/Feature';
+import { useEffect, useState } from 'react';
 
 const Demand = () => {
   const jobData = useLoaderData()
   console.log(jobData);
-  //const [jobList,setJobList]= useState()
+  const [allJob, setAllJob] = useState([])
+  useEffect(() => {
+    fetch('/feature.json')
+      .then(res => res.json())
+    .then(data=> setAllJob(data))
+  },[])
+console.log(allJob);
+
   return (
     <>
         <div className='flex flex-grid flex-col-reverse lg:flex-row grid-cols-2 mx-auto items-center justify-around'>
@@ -25,7 +33,6 @@ const Demand = () => {
       </div>
       <div className='mt-12 text-center mb-8'>
         <h2 className='text-5xl mb-4 font-bold font-serif'>Petition Category List</h2>
-        <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
       </div>
       <div className='flex flex-col mx-auto justify-around items-center lg:flex-row'>
         {
@@ -39,8 +46,14 @@ const Demand = () => {
           )
 }
       </div>
-      <div>
-       <h4>Feature</h4>
+      <div className='flex flex-col mx-auto justify-around items-center lg:flex-col'>
+        <h4>Feature </h4>
+        {
+          allJob.map(appealJob => <Feature
+            key={appealJob.id}
+            appealJob={appealJob}
+           ></Feature>)
+        }
       </div>
     </>
   );
