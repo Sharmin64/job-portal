@@ -1,18 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import { addToDb } from '../utilities/fakedb';
 
 const ViewDetails = () => {
+  const applyCartHandle = (id) => {
+   addToDb(id)
+}
  
   const [details, setDetails] = useState([]);
     const dynamic = useParams();
     const dynamicId = dynamic.id;
-    console.log(dynamicId);
+   
     const data = useLoaderData();
     useEffect(() => {
         const detailsData = data.find((dt) => dt.id === dynamicId);
         setDetails(detailsData)
     }, [])
-  console.log(details);
+ 
     const { id,description,responsibilities,requirements, location, experience,  job_title, salary, email, phone } = details
   return (
     <div>
@@ -67,7 +71,7 @@ const ViewDetails = () => {
                         </div>
                         <div className='w-3/4 mx-auto'>
                             <span>
-                                <button className='my-btn w-full my-2'>Apply Now</button>
+                                <button onClick={() => applyCartHandle(id)} className='my-btn w-full my-2'>Apply Now</button>
                             </span>
                         </div>
 

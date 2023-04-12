@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
+
 import './index.css'
 import {
   createBrowserRouter,
@@ -13,6 +13,7 @@ import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blog from './components/Blog/Blog';
 import ErrorPage from './components/Error/ErrorPage';
 import ViewDetails from './components/ViewDetails';
+import { jobAndCartData } from './loaders/loaders';
 
 //import Feature from './components/Job/Feature';
 
@@ -29,28 +30,26 @@ const router = createBrowserRouter([
         element: <Demand></Demand>,
         loader: () => fetch('/data.json'),
       },
-      //{
-      //  path: 'feature/:featureId',
-      //  element: <Feature></Feature>
-      //},
-      {
-        path: 'statistics',
-        element: <Statistics></Statistics>
-      },
-      {
-        path: 'applied jobs',
-        element: <AppliedJobs></AppliedJobs>
-      },
-      {
-        path: 'blog',
-        element: <Blog></Blog>
-      },
       {
         path: '/viewDetails/:id',
         element: <ViewDetails></ViewDetails>,
-        loader: ()=>fetch(`/feature.json`)
+        loader: ()=>fetch('/feature.json')
       
-      }
+      },
+      {
+        path: '/statistics',
+        element: <Statistics></Statistics>
+      },
+      {
+        path: '/appliedjobs',
+        element: <AppliedJobs></AppliedJobs>,
+        loader: jobAndCartData
+      },
+      {
+        path: '/blog',
+        element: <Blog></Blog>
+      },
+    
       
     ]
   }

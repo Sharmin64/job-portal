@@ -18,6 +18,10 @@
   @apply bg-gradient-to-r from-sky-500 to-indigo-500 border-blue-600 font-bold text-gray-50 text-xl py-3 px-5 rounded-xl
 }
 
+.my-rs-btn {
+  @apply border-spacing-6 bg-indigo-300 rounded-md px-5 py-2
+}
+
 /*
 .default {
   @apply font-medium tracking-wide text-gray-500 hover: text-slate-500 transition-colors duration-200

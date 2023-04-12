@@ -1,6 +1,6 @@
 //import React, { useState } from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
-import logo from './hireman.jpg'
+import logo from './job.png'
 import Job from '../Job/Job';
 //import Feature from '../Job/Feature';
 import Feature from './../Job/Feature';
@@ -16,7 +16,7 @@ const Demand = () => {
 
   const [allJob, setAllJob] = useState([])
   useEffect(() => {
-    fetch('/feature.json')
+    fetch('feature.json')
       .then(res => res.json())
     .then(data=> setAllJob(data))
   }, [])
@@ -35,7 +35,7 @@ const Demand = () => {
         </Link>
       </div>
       <div>
-        <img className='object-cover rounded-full  mt-5 px-8 overflow-hidden' src={logo} alt="jobman" />
+        <img className='object-cover rounded-full  mt-5 px-8 overflow-hidden' src={logo} alt="job" />
       </div>
       </div>
       <div className='mt-12 text-center mb-8'>

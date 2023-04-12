@@ -27,9 +27,9 @@ const Header = () => {
               Statistics
             </NavLink>
             <NavLink
-              to='/applied jobs'
-              aria-label='applied jobs'
-              title='applied jobs'
+              to='/appliedJobs'
+              aria-label='appliedJobs'
+              title='appliedJobs'
               className={({ isActive }) => (isActive ? 'active' : 'font-medium tracking-wide text-gray-500  transition-colors duration-200')}
             >
              Applied Jobs
