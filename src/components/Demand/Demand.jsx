@@ -5,17 +5,24 @@ import Job from '../Job/Job';
 //import Feature from '../Job/Feature';
 import Feature from './../Job/Feature';
 import { useEffect, useState } from 'react';
+//import JobLists from '../JobLists/JobLists';
 
 const Demand = () => {
+  const [seeAllCart, setSeeAllCart] = useState(4);
+    const btnHandler = () => {
+        setSeeAllCart(pNumber => pNumber + 2)
+    }
   const jobData = useLoaderData()
-  console.log(jobData);
+
   const [allJob, setAllJob] = useState([])
   useEffect(() => {
     fetch('/feature.json')
       .then(res => res.json())
     .then(data=> setAllJob(data))
-  },[])
-console.log(allJob);
+  }, [])
+ 
+ 
+
 
   return (
     <>
@@ -28,7 +35,7 @@ console.log(allJob);
         </Link>
       </div>
       <div>
-        <img className='object-cover  mt-5 px-8 overflow-hidden' src={logo} alt="jobman" />
+        <img className='object-cover rounded-full  mt-5 px-8 overflow-hidden' src={logo} alt="jobman" />
       </div>
       </div>
       <div className='mt-12 text-center mb-8'>
@@ -46,14 +53,22 @@ console.log(allJob);
           )
 }
       </div>
-      <div className='flex flex-col mx-auto justify-around items-center lg:grid-col'>
-        <h4>Feature </h4>
+      <div className='mt-12 text-center mb-8'>
+        <h2 className='text-5xl mb-4 font-bold font-serif'>Featured Jobs</h2>
+        <p className='text-gray-400'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+
+      </div>
+      <div className=' sm:flex-col grid lg:grid-cols-2 mx-auto '>
+       
         {
-          allJob.map(appealJob => <Feature
+          allJob.slice(0,seeAllCart).map(appealJob => <Feature
             key={appealJob.id}
             appealJob={appealJob}
            ></Feature>)
         }
+      </div>
+      <div className='btn px-6 py-3  text-center'>
+     <button onClick={btnHandler} className='my-btn'>See All</button>
       </div>
     </>
   );

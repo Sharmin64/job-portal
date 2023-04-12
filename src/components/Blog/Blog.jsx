@@ -3,7 +3,7 @@ import React from 'react';
 const Blog = () => {
   return (
     <>
-      <div className='container justify-center items-center mt-20 bg-[#ffe4e1]'>
+      <div className='container justify-center items-center mt-20 mx-auto bg-[#ffe4e1]'>
       <h3 className='text-5xl text-center'>Blog page</h3>
       <div className='card p-4 text-center mb-6'>
       <h3 className='text-3xl font-serif'>When should you use  context Api? </h3>

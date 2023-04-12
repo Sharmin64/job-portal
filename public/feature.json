@@ -1,6 +1,6 @@
 [
   {
-      "id": 1, 
+      "id": "1", 
       "title": "Technical Engineer",
       "company": "Google LLC",
       "image": "https://i.ibb.co/3CNFNwt/google-1-1-1.png",
@@ -9,7 +9,7 @@
       "requirements": "Bachelor degree to complete any reputational university.",
       "experience": "2-3 Years in this field.",
       "salary": "100K - 150K (Per Month)",
-      "job-title": "Product Designer",
+      "job_title": "Product Designer",
       "phone": " 01750-00 00 00",
       "email": "info@gmail.com",
       "location": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
@@ -17,7 +17,7 @@
       "distance":"Onsite"
   },
   {
-      "id": 2,
+      "id": "2",
       "title": "Software Engineer",
       "company": "Microsoft Corporation",
       "image": "https://pngimg.com/uploads/microsoft/microsoft_PNG10.png",
@@ -26,7 +26,7 @@
       "requirements": "Bachelor's degree in Computer Science or related field, and experience in software development.",
       "experience": "2-5 years of experience in software development.",
       "salary": "120K - 200K (Per Year)",
-      "job-title": "Software Developer",
+      "job_title": "Software Developer",
       "phone": "0123-4567890",
       "email": "hr@microsoft.com",
       "location": "Redmond, Washington, USA",
@@ -34,7 +34,7 @@
       "distance":"Remote"
   },
   {
-      "id": 3,
+      "id": "3",
       "title": "Digital Marketing Manager",
       "company": "Amazon.com, Inc.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png",
@@ -43,7 +43,7 @@
       "requirements": "Bachelor's degree in Marketing, Communications or related field, and experience in digital marketing.",
       "experience": "3-5 years of experience in digital marketing.",
       "salary": "150K - 250K (Per Year)",
-      "job-title": "Digital Marketing Manager",
+      "job_title": "Digital Marketing Manager",
       "phone": "555-1234",
       "email": "careers@amazon.com",
       "location": "Seattle, Washington, USA",
@@ -51,7 +51,7 @@
       "distance":"Remote"
   },
   {
-      "id": 4,
+      "id":"4",
       "title": "Customer Experience Manager",
       "company": "Airbnb, Inc.",
       "image": "https://i.ibb.co/0msRHLP/airbnb-logo.png",
@@ -59,8 +59,8 @@
       "responsibilities": "Managing the customer experience: You will be responsible for ensuring that Airbnb's guests and hosts have a seamless and positive experience. This will involve overseeing a team of customer service agents who respond to inquiries and resolve issues related to bookings, payments, and accommodations.",
       "requirements": "Bachelor's degree in Business, Communications, or a related field",
       "experience": "5+ years of experience in customer service or a related field",
-      "salary": "Competitive salary and benefits package",
-      "job-title": "Customer Experience Manager",
+      "salary": "150K - 350K (Per Year)",
+      "job_title": "Customer Experience Manager",
       "phone": "+1-855-424-7262",
       "email": "jobs@airbnb.com",
       "location": "888 Brannan St, San Francisco, CA 94103, USA",
@@ -68,7 +68,7 @@
       "distance":"Remote"
   },
   {
-      "id": 5,
+      "id":"5",
       "title": "Content Acquisition Manager",
       "company": "Netflix, Inc.",
       "image": "https://i.ibb.co/HTtg2tR/Vector.png",
@@ -76,8 +76,8 @@
       "responsibilities": "Identifying and acquiring content: You will be responsible for identifying and acquiring content for Netflix's streaming service. This will involve working with studios, networks, and independent producers to negotiate deals for TV shows, movies, and documentaries that will appeal to Netflix's global audience.",
       "requirements": "Bachelor's degree in Business, Communications, or a related field",
       "experience": "5+ years of experience in content acquisition or a related field",
-      "salary": "Competitive salary and benefits package",
-      "job-title": "Content Acquisition Manager",
+      "salary": "100K - 400K (Per Year)",
+      "job_title": "Content Acquisition Manager",
       "phone": "+1-408-540-3700",
       "email": "jobs@netflix.com",
       "location": "100 Winchester Circle, Los Gatos, CA 95032, USA",
@@ -85,7 +85,7 @@
       "distance":"Remote"
   },
   {
-      "id": 6,
+      "id": "6",
       "title": "Autopilot Software Engineer",
       "company": "Tesla, Inc.",
       "image": "https://i.ibb.co/rdQB6z3/tesla-9-1.png",
@@ -93,8 +93,8 @@
       "responsibilities": "Designing, developing, and testing Autopilot software: You will be responsible for designing, developing, and testing the software that powers Tesla's Autopilot system. This will involve working with a team of engineers to create cutting-edge autonomous driving technology that enhances the safety and performance of Tesla vehicles.",
       "requirements": "Bachelor's or Master's degree in Computer Science or a related field",
       "experience": "5+ years of experience in software engineering, with a focus on autonomous systems or robotics",
-      "salary": "Competitive salary and benefits package",
-      "job-title": "Autopilot Software Engineer",
+      "salary": "350K - 500K (Per Year)",
+      "job_title": "Autopilot Software Engineer",
       "phone": "+1-650-681-5100",
       "email": "jobs@tesla.com",
       "location": "3500 Deer Creek Road, Palo Alto, CA 94304, USA",
